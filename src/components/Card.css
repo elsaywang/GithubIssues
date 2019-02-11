@@ -1,0 +1,26 @@
+.card, .card-red, .card-hidden{
+  height: 200px;
+  width: 140px;
+  display: inline-flex;
+  background-color: #BFBFBF;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  margin-right: 10px;
+}
+.card-hidden{
+  background-color: rgb(134, 85, 197);
+}
+.card-red{
+  color: rgba(233, 21, 21, 0.781)
+}
+@media screen and (max-width: 767px) {
+        .card, .card-red {
+          max-width: 150px;
+        }
+       
+      }
+.cards {
+  margin: 0 auto;
+}

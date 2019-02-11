@@ -1,0 +1,39 @@
+.ScoreBoard {
+        background-color: rgba(16, 13, 51, 0.499);
+        color: #fff;
+        z-index: 15;
+        padding: 1px 0;
+        transition: all 0.4s ease;
+        /* top: 0px;
+        position: fixed */
+      } 
+  .ScoreBoard .container {
+        max-width: 300px;
+        max-height: 15px;
+      }
+      .ScoreBoard h5, h3{
+        padding: 0;
+        margin:0;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .ScoreBoard .title {
+        margin-top: 3px;
+      }
+      .ScoreBoard h3{
+        font-size: 20px;
+        position: relative;
+        top: 4px;
+      }
+      .ScoreBoard p{
+        font-size: 16px;
+        color: whitesmoke;
+        padding-left: 10px;
+      }
+
+  div[data-winner="dealer"] {
+        background-color: rgba(124, 72, 63, 0.452);
+      }
+  div[data-winner="player"] {
+        background-color: rgb(43, 156,63,0.5 );
+      }

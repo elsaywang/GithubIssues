@@ -1,0 +1,60 @@
+
+.cardfan { 
+  height: 356px; 
+  width: 700px; 
+  margin: 2.6rem;
+  position: relative; 
+}
+
+.cardfan div[data-card='card']{ 
+  position: absolute; 
+  left: 200px; 
+  width: 160px; 
+  height: 220px; 
+  border: 12px solid #ffe; 
+  box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2); 
+  transform-origin: center 490px; 
+  transition: all .6s linear; 
+}
+
+div[data-card='card']:first-child { 
+  transform: rotate(45deg);  
+}
+div[data-card='card']:nth-child(2) { 
+  transform: rotate(30deg);  
+}
+div[data-card='card']:nth-child(3){ 
+  transform: rotate(15deg);  
+}
+div[data-card='cardr']:nth-child(4) { 
+  transform: rotate(0deg);  
+}
+div[data-card='card']:nth-child(5) { 
+  transform: rotate(-15deg);  
+}
+div[data-card='card']:nth-child(6){ 
+  transform: rotate(-30deg); 
+}
+
+div[data-card='card']:first-child:hover{ 
+  transform: rotate(50deg); 
+}
+div[data-card='card']:nth-child(2):hover { 
+  transform: rotate(35deg);  
+}
+div[data-card='card']:nth-child(3):hover { 
+  transform: rotate(20deg);  
+}
+div[data-card='card']:nth-child(4):hover{ 
+  transform: rotate(5deg);  
+}
+div[data-card='card']:nth-child(5):hover{ 
+  transform: rotate(-10deg);  
+}
+:hover [data-card='card']:nth-child(6):hover{ 
+  transform: rotate(-25deg);  
+}
+
+.header{ 
+  margin-top: 3px ;
+}
